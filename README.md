@@ -12,7 +12,7 @@
 ```
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/hyperium/hyper/master/LICENSE)
 
-Automate your Django deploys.
+Automate your Django deployments.
 
 ### Server Requirements
 
@@ -21,7 +21,7 @@ Automate your Django deploys.
 * Virtualenv
 * Apache 2
 
-### Deploy Structure
+### Structure
 
 ```sh
 releases/
@@ -35,7 +35,7 @@ current --symlink--> releases/app_20170128113401 # latest release
 
 ### Instructions
 
-* Clone this repository in the deploy server;
+* Clone this repository in the production/test server;
 * Set the directory structure of the server in the `config_base.sh` file;
 * Enter the app and repository info in the `config_app.sh` file;
 * Give the `deploy.sh` and `clean.sh` executable (`chmod u+x`) permission;
